@@ -1,0 +1,154 @@
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House
+$ mkdir 20230605-DiegoQuintero
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House
+$ git init
+Initialized empty Git repository in D:/Digital House/.git/
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House (main)
+$ cd 20230605-DiegoQuintero/
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero
+$ git init
+Initialized empty Git repository in D:/Digital House/20230605-DiegoQuintero/.git/
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (main)
+$ git remote add origin https://github.com/DiegoQuintero2562/20230605-DiegoQuintero.git
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (main)
+$ touch comandos.txt main.js index.html
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (main)
+$ git add .
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (main)
+$ git commit -m "commit 01 de DiegoQuintero"
+[main (root-commit) 2148e0e] commit 01 de DiegoQuintero
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 comandos.txt
+ create mode 100644 index.html
+ create mode 100644 main.js
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 248 bytes | 124.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/DiegoQuintero2562/20230605-DiegoQuintero.git    
+ * [new branch]      main -> main  
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (main)
+$ git checkout -b <feature01>
+bash: syntax error near unexpected token `newline'
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (main)
+$ git checkout -b feature01        
+Switched to a new branch 'feature01'
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (feature01)
+$ mkdir Terminal Hardware
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (feature01)
+$ touch Terminal/resumen.txt Hardware/resumen.txt
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (feature01)
+$ git add .
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (feature01)
+$ git commit -m "commit 02 de DiegoQuintero"
+[feature01 5552aa0] commit 02 de DiegoQuintero
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Hardware/resumen.txt
+ create mode 100644 Terminal/resumen.txt
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (feature01)
+$ git push origin feature1
+error: src refspec feature1 does no
+t match any
+error: failed to push some refs to 'https://github.com/DiegoQuintero2562/20230605-DiegoQuintero.git'     
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (feature01)
+$ git push origin main
+Everything up-to-date
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (feature01)
+$ git push origin feature01        
+Enumerating objects: 4, done.      
+Counting objects: 100% (4/4), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 367 bytes | 183.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature01' on GitHub by visiting:  
+remote:      https://github.com/DiegoQuintero2562/20230605-DiegoQuintero/pull/new/feature01
+remote:
+To https://github.com/DiegoQuintero2562/20230605-DiegoQuintero.git    
+ * [new branch]      feature01 -> feature01
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (feature01)
+$ git checkout -b feature02        
+Switched to a new branch 'feature02'
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (feature02)
+$ gedit Terminal/resumen.txt       
+bash: gedit: command not found     
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (feature02)
+$ nano Terminal/resumen.txt        
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (feature02)
+$ nano Hardware/resumen.txt        
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (feature02)
+$ git add .
+warning: in the working copy of 'Hardware/resumen.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Terminal/resumen.txt', LF will be replaced by CRLF the next time Git touches it
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (feature02)
+$ git commit -m "commit 03 de DiegoQuintero"
+[feature02 6602e1c] commit 03 de DiegoQuintero
+ 2 files changed, 9 insertions(+)  
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (feature02)
+$ git pull origin main
+From https://github.com/DiegoQuintero2562/20230605-DiegoQuintero      
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (feature02)
+$ git psuh origin main
+git: 'psuh' is not a git command. See 'git --help'.
+
+The most similar command is        
+        push
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (feature02)
+$ git push origin main
+Everything up-to-date
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (feature02)
+$ git push origin feature02
+Enumerating objects: 11, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (6/6), 519 bytes | 129.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'feature02' on GitHub by visiting:  
+remote:      https://github.com/DiegoQuintero2562/20230605-DiegoQuintero/pull/new/feature02
+remote:
+To https://github.com/DiegoQuintero2562/20230605-DiegoQuintero.git    
+ * [new branch]      feature02 -> feature02
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (feature02)
+$ git checkout main
+Switched to branch 'main'
+
+Usuario@DIEGOQUINTERO MINGW64 /d/Digital House/20230605-DiegoQuintero (main)
+$ mv comandos.txt comandosUtilizado
+s.txt
